@@ -34,84 +34,86 @@ h1 {
 
 .info {
     margin: auto;
-    border-right: 1px solid black;
+    /* border-right: 1px solid black; */
     height: 101vh;
-    width: 14%;
-    padding-left: 3%;
-    padding-right: 1%;
+    width: 16.5%;
 }
 
 
 .picture-div {
     position: relative;
-    top: 17%;
-    left: 15%;
+    top: 9.5%;
+    left: 0.5%;
     height: 55vh;
-    width: 11.5vw;
+    width: 98%;
     overflow: hidden;
 }
 
 #Spider-Ham {
-    margin: -50px;
+    margin: -25px;
     margin-top: -2px;
 }
 
 #spiderHam {
-    background-image: url("img/yellow.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #FEEA01;
 }
 
 #Peni-Parker {
-    margin: -200px;
-    margin-top: -50px;
+    margin: -175px;
+    margin-top: 0px;
 }
 
 #peniParker {
-    background-image: url("img/spdr.jpg");
-    background-size: cover;
+    background-image: url("img/Sp-dr.jpg");
+    background-size: 1000%;
+    background-position-x: -10px;
     background-repeat: no-repeat;
 }
 
 #Spider-Gwen {
-    margin: -175px;
+    margin: -120px;
+    margin-top: 0px;
 }
 
 #spiderGwen {
-    background-image: url("img/gwen.jpg");
-    background-size: cover;
+    background-image: url("img/Spider-gwen.jpg");
+    background-size: 500%;
     background-repeat: no-repeat;
 }
 
 #Miles-Morales {
-    margin: -65px;
+    margin: -0px;
+    margin-top: -10px;
 }
 
 #milesMorales {
-    background-image: url("img/miles.jpg");
-    background-size: cover;
+    background-image: url("img/Miles-Morales.jpg");
+    background-size: 800%;
     background-repeat: no-repeat;
 }
 
 #SpiderMan {
-    margin: -250px;
-    margin-top: -270px;
+    margin: -260px;
+    margin-top: 20px;
 }
 
 #spiderMan {
-    background-image: url("img/spider.jpg");
-    background-size: cover;
+    background-image: url("img/Spider-Man.jpg");
+    background-size: 650%;
+    background-position-x: -35px;
     background-repeat: no-repeat;
 }
 
 #SpiderMan-Noir {
-    margin: -230px;
-    margin-top: -50px;
+    margin: -200px;
+    margin-top: 0px;
 }
 
 #Noir {
-    background-image: url("img/noir.jpg");
-    background-size: cover;
+    background-image: url("img/Spider-Man\ Noir.jpg");
+    background-size: 650%;
+    background-position-y: 100%;
+    background-position-x: 10%;
     background-repeat: no-repeat;
 }
 
