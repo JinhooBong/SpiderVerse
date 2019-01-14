@@ -13,6 +13,7 @@ const spiderNoirInfo = document.getElementById("Noir-description");
 
 spiderHam.addEventListener("click", () => {
     spiderHamInfo.innerHTML = "test";
+    spiderHamInfo.style.boxShadow = "10px 10px 5px grey";
     console.log("success");
 })
 
