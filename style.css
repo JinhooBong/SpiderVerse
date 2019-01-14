@@ -30,19 +30,28 @@ p {
 }
 
 #title {
-    padding-top: 3%;
+    /* padding-top: 3%;
     font-family: 'Heebo', sans-serif;
     font-size: 7em;
     text-transform: uppercase;
-    color: #FE0400;
-    text-shadow: -2px 0 #D80502, 0 2px #D80502, 2px 0 #D80502, 0 -2px #D80502,
+    color: #D80502;
+    text-shadow: -2px 0 #ff2c28, 0 2px #ff2c28, 2px 0 #ff2c28, 0 -2px #ff2c28,
                  0 0 , 0 4px #D0DDFA, 4px 0 #D0DDFA, 0 0,
                  0 0, 0 5px #243353, 5px 0 #243353, 0 0,
                  0 0, 0 6px #243353, 6px 0 #243353, 0 0,
                  0 0, 0 7px #243353, 7px 0 #243353, 0 0,
                  0 0, 0 8px #243353, 8px 0 #243353, 0 0,
                  0 0, 0 9px #243353, 9px 0 #243353, 0 0,
-                 0 0, 0 10px #243353, 10px 0 #243353, 0 0;
+                 0 0, 0 10px #243353, 10px 0 #243353, 0 0; */
+    width: 75%;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    margin: auto;
+    background-image: url("img/title.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 5%;
 }
 
 #subtitle {
