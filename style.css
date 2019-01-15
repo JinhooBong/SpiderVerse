@@ -85,6 +85,21 @@ p {
     color: white;
 }
 
+.svgs {
+    position: relative;
+    top: 35%;
+    left: 5%;
+    font-family: 'Bangers', cursive;
+    font-size: 21px;   
+    filter: drop-shadow(15px 15px 6px rgba(0,0,0,0.9));  
+    display:none;
+}
+
+.middle {
+    position: relative;
+    top: 60%;
+}
+
 .picture-div {
     position: relative;
     top: -5%;
@@ -145,7 +160,7 @@ p {
 #spiderMan {
     background-image: url("img/Spider-Man.jpg");
     background-size: 650%;
-    background-position-x: -35px;
+    background-position-x: -5px;
     background-repeat: no-repeat;
 }
 

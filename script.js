@@ -1,38 +1,42 @@
 const spiderHam = document.getElementById("spiderHam");
-const spiderHamInfo = document.getElementById("spiderHam-description");
 const peniParker = document.getElementById("peniParker");
-const peniParkerInfo = document.getElementById("peniParker-description");
 const spiderGwen = document.getElementById("spiderGwen");
-const spiderGwenInfo = document.getElementById("spiderGwen-description");
 const miles = document.getElementById("milesMorales");
-const milesMoralesInfo = document.getElementById("milesMorales-description");
 const spiderman = document.getElementById("spiderMan");
-const spiderManInfo = document.getElementById("spiderMan-description");
 const spiderNoir = document.getElementById("Noir");
-const spiderNoirInfo = document.getElementById("Noir-description");
+const SVGS = document.getElementsByClassName("svgs");
 
 spiderHam.addEventListener("click", () => {
-    spiderHamInfo.innerHTML = "test";
-    spiderHamInfo.style.boxShadow = "10px 10px 5px grey";
-    console.log("success");
-})
+    makeVisible(0);
+});
 
 peniParker.addEventListener("click", () => {
-    peniParkerInfo.innerHTML = "test";
+    makeVisible(1);
 })
 
 spiderGwen.addEventListener("click", () => {
-    spiderGwenInfo.innerHTML = "test";
+    makeVisible(2);
 })
 
 miles.addEventListener("click", () => {
-    milesMoralesInfo.innerHTML = "test";
+    makeVisible(3);
 })
 
 spiderman.addEventListener("click", () => {
-    spiderManInfo.innerHTML = "test";
+    makeVisible(4);
 })
 
 spiderNoir.addEventListener("click", () => {
-    spiderNoirInfo.innerHTML = "test";
+    makeVisible(5);
 })
+
+
+function makeVisible(index) {
+    for(var i = 0; i < SVGS.length; i=i+1) {
+        if(i === index) {
+            SVGS[i].style.display = "block";
+        } else {
+            SVGS[i].style.display = "none";
+        }
+    }
+}
